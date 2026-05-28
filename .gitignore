@@ -7,5 +7,9 @@ postgres/backup
 
 paperless/data
 
+vaultwarden/vw-data
+
 # no secrets
-*/.env
+**/.env
+**/*.crt
+**/*.key
