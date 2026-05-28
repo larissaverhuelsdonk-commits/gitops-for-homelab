@@ -21,12 +21,6 @@
     - Larissa's Portfolio:
         href: https://app.parqet.com/p/overview
         description: Link to proprietary Parqet instance
-    - Budget App:
-        href: http://192.168.2.184:8081        
-        description: Budgeting app
-    - Spliit:
-        href: http://192.168.2.184:3000/groups/k6jXyUdGo0zhxf_aCgLdw/expenses
-        description: Who owes what?
 
 - Technical:
     - Ugreen GUI:
