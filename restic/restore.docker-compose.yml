@@ -10,10 +10,10 @@ services:
       RESTIC_PASSWORD: ${RESTIC_PASSWORD}
 
     volumes:
-      # data to back up
-      - /volume1/homes/Ninarissa/backups:/data:ro
-
       # repository location
       - /onsite-backups/snapshots:/repo
 
-    command: "forget --keep-daily 7 --keep-weekly 5 --keep-monthly 6 --prune"
+      # restore dir
+      - /volume1/homes/Ninarissa/restored_backups:/restore
+
+    command: "restore latest --target /restore"

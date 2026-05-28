@@ -6,3 +6,6 @@ postgres/data
 postgres/backup
 
 paperless/data
+
+# no secrets
+*/.env

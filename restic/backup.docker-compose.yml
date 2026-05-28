@@ -7,13 +7,13 @@ services:
 
     environment:
       RESTIC_REPOSITORY: /repo
-      RESTIC_PASSWORD: wD-LetkB
+      RESTIC_PASSWORD: ${RESTIC_PASSWORD}
 
     volumes:
       # data to back up
       - /volume1/homes/Ninarissa/backups:/data:ro
 
       # repository location
-      - /volume1/homes/Ninarissa/snapshots:/repo
+      - /onsite-backups/snapshots:/repo
 
-    command: "backup /data && forget --keep-daily 7 --keep-weekly 5 --keep-monthly 6 --prune"
+    command: "backup /data"

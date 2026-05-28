@@ -204,3 +204,4 @@
   }
 ]
 [2026-05-28T08:29:27.820Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.2.184:8000/api/statistics/?format=json
+[2026-05-28T13:25:52.054Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
