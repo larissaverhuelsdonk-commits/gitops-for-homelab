@@ -1,6 +1,0 @@
-# Test artifacts (source: api.test.ts remains tracked)
-coverage/
-.nyc_output/
-.cache/
-tmp/
-*.log

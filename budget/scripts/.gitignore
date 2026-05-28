@@ -1,4 +1,0 @@
-# Local-only script overrides (tracked scripts stay in repo)
-*.local.*
-.env
-output/
