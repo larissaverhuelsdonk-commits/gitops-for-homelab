@@ -1,0 +1,19 @@
+services:
+  restic-backup:
+    image: restic/restic:latest
+    container_name: restic-backup
+
+    restart: "no"
+
+    environment:
+      RESTIC_REPOSITORY: /repo
+      RESTIC_PASSWORD: wD-LetkB
+
+    volumes:
+      # data to back up
+      - /volume1/homes/Ninarissa/backups:/data:ro
+
+      # repository location
+      - /volume1/homes/Ninarissa/snapshots:/repo
+
+    command: "forget --keep-daily 7 --keep-weekly 5 --keep-monthly 6 --prune"
