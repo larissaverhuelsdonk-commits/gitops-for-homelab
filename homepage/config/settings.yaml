@@ -1,0 +1,11 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/settings/
+
+title: Norbert das NAS
+
+favicon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/ugreen-nas.png
+
+providers:
+  openweathermap: openweathermapapikey
+  weatherapi: weatherapiapikey

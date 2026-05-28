@@ -1,0 +1,36 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/services/
+
+- Administration:
+    - Paperless:
+        href: http://192.168.2.184:8000/dashboard
+        description: Central document management system
+        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/paperless-ngx.svg
+        widget:
+          type: paperlessngx
+          url: http://192.168.2.184:8000
+          username: paperless-admin
+          password: "@D$TX8+L7R$Ed#S"
+
+- Financial Services:
+    - Larissa's Portfolio:
+        href: https://app.parqet.com/p/overview
+        description: Link to proprietary Parqet instance
+    - Budget App:
+        href: http://192.168.2.184:8081        
+        description: Budgeting app
+    - Spliit:
+        href: http://192.168.2.184:3000/groups/k6jXyUdGo0zhxf_aCgLdw/expenses
+        description: Who owes what?
+
+- Technical:
+    - Ugreen GUI:
+        href: http://192.168.2.184:9999/desktop/?os=ugospro#/login/account
+        description: Graphical interface for NAS
+    - Speedport:
+        href: http://192.168.2.1/html/login/index.html
+        description: Our Speedport Smart 4 router
+    - Homepage Documentation:
+        href: https://gethomepage.dev/widgets/
+        description: How to expand this homepage

@@ -1,0 +1,206 @@
+[2026-05-27T13:57:24.848Z] info: kubernetes.yaml was copied to the config folder
+[2026-05-27T13:57:39.698Z] error: Host validation failed for: 192.168.2.184:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-27T13:57:39.860Z] error: Host validation failed for: 192.168.2.184:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-27T13:57:39.867Z] error: Host validation failed for: 192.168.2.184:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-27T13:57:39.871Z] error: Host validation failed for: 192.168.2.184:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-27T13:57:39.877Z] error: Host validation failed for: 192.168.2.184:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-27T13:57:39.885Z] error: Host validation failed for: 192.168.2.184:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-27T13:57:39.891Z] error: Host validation failed for: 192.168.2.184:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-27T13:57:39.897Z] error: Host validation failed for: 192.168.2.184:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-27T13:57:39.901Z] error: Host validation failed for: 192.168.2.184:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-27T13:57:39.909Z] error: Host validation failed for: 192.168.2.184:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-27T13:57:39.913Z] error: Host validation failed for: 192.168.2.184:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-27T13:57:39.920Z] error: Host validation failed for: 192.168.2.184:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-27T13:57:42.984Z] error: Host validation failed for: 192.168.2.184:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-05-27T13:58:23.103Z] info: docker.yaml was copied to the config folder
+[2026-05-27T13:58:23.106Z] info: services.yaml was copied to the config folder
+[2026-05-27T13:58:23.107Z] info: bookmarks.yaml was copied to the config folder
+[2026-05-27T13:58:23.109Z] info: proxmox.yaml was copied to the config folder
+[2026-05-27T13:58:23.127Z] info: widgets.yaml was copied to the config folder
+[2026-05-27T13:58:23.128Z] info: custom.css was copied to the config folder
+[2026-05-27T13:58:23.129Z] info: custom.js was copied to the config folder
+[2026-05-27T13:58:23.325Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-05-27T14:01:09.326Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-05-27T14:03:23.177Z] error: Failed to load services.yaml, please check for errors
+[2026-05-27T14:03:23.178Z] error: YAMLException: bad indentation of a mapping entry (8:20)
+
+ 5 | - Administration:
+ 6 |     - Paperless:
+ 7 |       href: http://192.168.2.184:8000
+ 8 |         description: Central document management system
+------------------------^
+ 9 | 
+ 10 | - My Second Group:
+[2026-05-27T14:03:23.413Z] error: Failed to load services.yaml, please check for errors
+[2026-05-27T14:03:23.414Z] error: YAMLException: bad indentation of a mapping entry (8:20)
+
+ 5 | - Administration:
+ 6 |     - Paperless:
+ 7 |       href: http://192.168.2.184:8000
+ 8 |         description: Central document management system
+------------------------^
+ 9 | 
+ 10 | - My Second Group:
+[2026-05-27T14:03:23.597Z] error: Failed to load services.yaml, please check for errors
+[2026-05-27T14:03:23.598Z] error: YAMLException: bad indentation of a mapping entry (8:20)
+
+ 5 | - Administration:
+ 6 |     - Paperless:
+ 7 |       href: http://192.168.2.184:8000
+ 8 |         description: Central document management system
+------------------------^
+ 9 | 
+ 10 | - My Second Group:
+[2026-05-27T14:03:23.605Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-05-27T14:03:23.842Z] error: Failed to load services.yaml, please check for errors
+[2026-05-27T14:03:23.843Z] error: YAMLException: bad indentation of a mapping entry (8:20)
+
+ 5 | - Administration:
+ 6 |     - Paperless:
+ 7 |       href: http://192.168.2.184:8000
+ 8 |         description: Central document management system
+------------------------^
+ 9 | 
+ 10 | - My Second Group:
+[2026-05-27T14:03:44.118Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-05-27T14:09:55.029Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-05-27T14:10:26.053Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-05-27T14:15:34.789Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-05-27T14:15:35.489Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.2.184:8000/api/statistics/?format=json
+[2026-05-27T14:17:34.606Z] error: <servicesProxy> YAMLException: bad indentation of a mapping entry (13:21)
+
+ 10 |           type: paperlessngx
+ 11 |           url: http://192.168.2.184:8000
+ 12 |           username: paperless-admin
+ 13 |           password: @D$TX8+L7R$Ed#S
+--------------------------^
+ 14 | 
+ 15 | - Financial Services:
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1289:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1293:9)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2278:7)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2260:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2260:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+[2026-05-27T14:17:34.612Z] error: Failed to load services.yaml, please check for errors
+[2026-05-27T14:17:34.612Z] error: YAMLException: bad indentation of a mapping entry (13:21)
+
+ 10 |           type: paperlessngx
+ 11 |           url: http://192.168.2.184:8000
+ 12 |           username: paperless-admin
+ 13 |           password: @D$TX8+L7R$Ed#S
+--------------------------^
+ 14 | 
+ 15 | - Financial Services:
+[2026-05-27T14:17:34.807Z] error: Failed to load services.yaml, please check for errors
+[2026-05-27T14:17:34.808Z] error: YAMLException: bad indentation of a mapping entry (13:21)
+
+ 10 |           type: paperlessngx
+ 11 |           url: http://192.168.2.184:8000
+ 12 |           username: paperless-admin
+ 13 |           password: @D$TX8+L7R$Ed#S
+--------------------------^
+ 14 | 
+ 15 | - Financial Services:
+[2026-05-27T14:17:34.815Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-05-27T14:17:35.119Z] error: Failed to load services.yaml, please check for errors
+[2026-05-27T14:17:35.119Z] error: YAMLException: bad indentation of a mapping entry (13:21)
+
+ 10 |           type: paperlessngx
+ 11 |           url: http://192.168.2.184:8000
+ 12 |           username: paperless-admin
+ 13 |           password: @D$TX8+L7R$Ed#S
+--------------------------^
+ 14 | 
+ 15 | - Financial Services:
+[2026-05-27T14:17:49.550Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-05-27T14:19:09.796Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-05-27T14:19:27.508Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-05-27T14:20:03.820Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-05-27T14:20:44.145Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-05-27T16:27:33.552Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-05-27T19:03:00.195Z] error: <httpProxy> Error calling http://192.168.2.184:8000/api/statistics/...
+[2026-05-27T19:03:00.201Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.2.184:8000
+      at <unknown> (Error: connect ECONNREFUSED 192.168.2.184:8000) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.2.184',
+    port: 8000
+  }
+]
+[2026-05-27T19:03:00.202Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.2.184:8000/api/statistics/?format=json
+[2026-05-27T19:03:00.656Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-05-27T19:03:00.989Z] error: <httpProxy> Error calling http://192.168.2.184:8000/api/statistics/...
+[2026-05-27T19:03:00.992Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.2.184:8000
+      at <unknown> (Error: connect ECONNREFUSED 192.168.2.184:8000) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.2.184',
+    port: 8000
+  }
+]
+[2026-05-27T19:03:00.992Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.2.184:8000/api/statistics/?format=json
+[2026-05-27T19:59:38.024Z] error: <httpProxy> Error calling http://192.168.2.184:8000/api/statistics/...
+[2026-05-27T19:59:38.025Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.2.184:8000
+      at <unknown> (Error: connect ECONNREFUSED 192.168.2.184:8000) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.2.184',
+    port: 8000
+  }
+]
+[2026-05-27T19:59:38.026Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.2.184:8000/api/statistics/?format=json
+[2026-05-27T20:06:02.237Z] error: <httpProxy> Error calling http://192.168.2.184:8000/api/statistics/...
+[2026-05-27T20:06:02.239Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.2.184:8000
+      at <unknown> (Error: connect ECONNREFUSED 192.168.2.184:8000) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.2.184',
+    port: 8000
+  }
+]
+[2026-05-27T20:06:02.239Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.2.184:8000/api/statistics/?format=json
+[2026-05-28T06:01:15.149Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-05-28T08:29:27.188Z] error: <httpProxy> Error calling http://192.168.2.184:8000/api/statistics/...
+[2026-05-28T08:29:27.192Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.2.184:8000
+      at <unknown> (Error: connect ECONNREFUSED 192.168.2.184:8000) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.2.184',
+    port: 8000
+  }
+]
+[2026-05-28T08:29:27.193Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.2.184:8000/api/statistics/?format=json
+[2026-05-28T08:29:27.479Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-05-28T08:29:27.818Z] error: <httpProxy> Error calling http://192.168.2.184:8000/api/statistics/...
+[2026-05-28T08:29:27.820Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.2.184:8000
+      at <unknown> (Error: connect ECONNREFUSED 192.168.2.184:8000) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.2.184',
+    port: 8000
+  }
+]
+[2026-05-28T08:29:27.820Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.2.184:8000/api/statistics/?format=json

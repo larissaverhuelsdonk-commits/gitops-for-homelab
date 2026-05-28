@@ -1,0 +1,32 @@
+networks:
+  budget-net:
+    driver: bridge
+  db-net:
+    external: true
+
+services:
+  api:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+      target: runner
+    networks:
+      - budget-net
+      - db-net
+    environment:
+      NODE_ENV: production
+      DATABASE_URL: postgresql://postgres:postgres@db:5432/budget
+      PORT: 4000
+    restart: unless-stopped
+
+  web:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    networks:
+      - budget-net
+    ports:
+      - "8081:80"
+    depends_on:
+      - api
+    restart: unless-stopped

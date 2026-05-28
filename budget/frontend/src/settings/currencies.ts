@@ -1,0 +1,20 @@
+/** ISO 4217 — THB first per product default */
+export const CURRENCY_CODES = [
+  "THB",
+  "USD",
+  "EUR",
+  "GBP",
+  "JPY",
+  "SGD",
+  "AUD",
+  "CAD",
+  "CHF",
+  "CNY",
+  "HKD",
+  "INR",
+  "KRW",
+  "MYR",
+  "NZD",
+  "PHP",
+  "VND",
+] as const;
