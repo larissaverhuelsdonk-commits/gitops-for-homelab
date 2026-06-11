@@ -21,6 +21,12 @@
     - Larissa's Portfolio:
         href: https://app.parqet.com/p/overview
         description: Link to proprietary Parqet instance
+    - Retirement Projection:
+        href: https://parqet-companion.littlenerdy.net/retirement
+        description: Link to Parqet integration
+    - Hahabu:
+        href: https://mein.hahabu.de/
+        description: Link to proprietary Budgeting app
 
 - Technical:
     - Ugreen GUI:

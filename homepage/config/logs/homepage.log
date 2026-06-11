@@ -208,3 +208,35 @@
 [2026-05-28T14:21:11.698Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
 [2026-05-28T14:22:10.314Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
 [2026-05-28T14:25:33.052Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-05-29T11:11:00.244Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-05-30T06:50:39.008Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-05-30T16:01:01.350Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-05-31T12:01:58.067Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-06-02T16:35:51.847Z] error: <httpProxy> Error calling http://192.168.2.184:8000/api/statistics/...
+[2026-06-02T16:35:51.869Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-06-02T16:35:51.854Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.2.184:8000
+      at <unknown> (Error: connect ECONNREFUSED 192.168.2.184:8000) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.2.184',
+    port: 8000
+  }
+]
+[2026-06-02T16:35:51.855Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.2.184:8000/api/statistics/?format=json
+[2026-06-02T16:35:52.166Z] error: <httpProxy> Error calling http://192.168.2.184:8000/api/statistics/...
+[2026-06-02T16:35:52.168Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.2.184:8000
+      at <unknown> (Error: connect ECONNREFUSED 192.168.2.184:8000) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.2.184',
+    port: 8000
+  }
+]
+[2026-06-02T16:35:52.169Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.2.184:8000/api/statistics/?format=json
+[2026-06-10T10:04:52.194Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
