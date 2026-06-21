@@ -12,10 +12,6 @@
           url: http://192.168.2.184:8000
           username: paperless-admin
           password: "@D$TX8+L7R$Ed#S"
-    - Vaultwarden:
-        href: https://192.168.2.184:8443/#/login
-        description: Central password manager
-        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/vaultwarden-light.svg
 
 - Financial Services:
     - Larissa's Portfolio:
