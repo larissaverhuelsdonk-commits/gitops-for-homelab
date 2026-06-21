@@ -33,7 +33,7 @@ services:
     networks:
       - db-net
 
-  webserver:
+  paperless:
     image: ghcr.io/paperless-ngx/paperless-ngx:latest
     restart: always
     depends_on:
@@ -47,9 +47,16 @@ services:
       - /volume1/my_apps/paperless/data/consume:/usr/src/paperless/consume
     networks:
       - db-net 
+      - proxy
     environment:
       PAPERLESS_REDIS: redis://broker:6379
       PAPERLESS_DBHOST: db
+      PAPERLESS_URL: https://paperless.home.arpa:8443
+    env_file:
+      - .env
+    extra_hosts:
+      - "authentik.home.arpa:192.168.2.184"
+
 
 volumes:
   data:
@@ -60,3 +67,6 @@ volumes:
 networks:
   db-net:
     external: true
+  proxy:
+    external: true
+

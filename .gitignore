@@ -1,6 +1,9 @@
 wip/
 
 
+# ignore logs
+homepage/config/logs
+
 # ignore data volumes
 postgres/data
 postgres/backup
