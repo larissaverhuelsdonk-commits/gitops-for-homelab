@@ -15,23 +15,16 @@ services:
     ports:
       - "8000:8000"
     volumes:
-      - /volume1/my_apps/paperless/data/data:/usr/src/paperless/data
-      - /volume1/my_apps/paperless/data/media:/usr/src/paperless/media
-      - /volume1/my_apps/paperless/data/export:/usr/src/paperless/export
-      - /volume1/my_apps/paperless/data/consume:/usr/src/paperless/consume
+      - /volume1/my_apps/20-paperless-ngx/data/data:/usr/src/paperless/data
+      - /volume1/my_apps/20-paperless-ngx/data/media:/usr/src/paperless/media
+      - /volume1/my_apps/20-paperless-ngx/data/export:/usr/src/paperless/export
+      - /volume1/my_apps/20-paperless-ngx/data/consume:/usr/src/paperless/consume
     networks:
       - db-net 
       - proxy
     environment:
       PAPERLESS_REDIS: redis://broker:6379
       PAPERLESS_DBHOST: db
-      PAPERLESS_URL: https://paperless.home.arpa:8443
-
-volumes:
-  data:
-  media:
-  pgdata:
-  redisdata:
 
 networks:
   db-net:

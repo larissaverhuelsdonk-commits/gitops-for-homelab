@@ -1,0 +1,16 @@
+services: 
+  dummy:
+    image: hello-world
+    restart: "no"
+    networks:
+      - db-net
+      - proxy
+
+networks:
+  db-net:
+    name: db-net
+    driver: bridge
+
+  proxy:
+    name: proxy
+    driver: bridge
