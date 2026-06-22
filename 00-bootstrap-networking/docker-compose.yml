@@ -1,6 +1,6 @@
 services: 
   dummy:
-    image: hello-world
+    image: hello-world:linux
     restart: "no"
     networks:
       - db-net
