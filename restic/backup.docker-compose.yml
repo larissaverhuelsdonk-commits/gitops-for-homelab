@@ -7,7 +7,9 @@ services:
 
     environment:
       RESTIC_REPOSITORY: /repo
-      RESTIC_PASSWORD: ${RESTIC_PASSWORD}
+
+    env_file:
+      - ../env/restic.env
 
     volumes:
       # data to back up

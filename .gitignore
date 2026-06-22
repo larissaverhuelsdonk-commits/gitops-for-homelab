@@ -11,6 +11,6 @@ postgres/backup
 paperless/data
 
 # no secrets
-**/.env
+**/*.env
 **/*.crt
 **/*.key
