@@ -8,7 +8,7 @@ services:
       - db-net
 
   paperless:
-    image: ghcr.io/paperless-ngx/paperless-ngx:latest
+    image: ghcr.io/paperless-ngx/paperless-ngx:2.20
     restart: always
     depends_on:
       - broker
