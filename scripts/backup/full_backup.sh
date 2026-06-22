@@ -17,4 +17,5 @@ run_step() {
 
 run_step "Paperless metadata DB dump" ./dump_paperless_metadata_db.sh
 run_step "Paperless document export" ./export_all_paperless_documents.sh
+run_step "Zip and Store on separate, onsite SSD" ./zip-backups-and-store-on-SSD.sh
 #run_step "Clear ~/backups/*" ./clear_temporary_backups.sh
