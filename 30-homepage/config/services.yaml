@@ -4,16 +4,16 @@
 
 - Administration:
     - Kanboard:
-        href: http://192.168.2.184:8003
+        href: http://192.168.2.191:8003
         description: Issue Tracker
         icon: https://cdn.jsdelivr.net/gh/selfhst/icons/svg/kanboard.svg
     - Paperless:
-        href: http://192.168.2.184:8000/dashboard
+        href: http://192.168.2.191:8000/dashboard
         description: Central document management system
         icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/paperless-ngx.svg
         widget:
           type: paperlessngx
-          url: http://192.168.2.184:8000
+          url: http://192.168.2.191:8000
           username: paperless-admin
           password: "@D$TX8+L7R$Ed#S"
 
@@ -29,9 +29,6 @@
         description: Link to proprietary Budgeting app
 
 - Technical:
-    - Ugreen GUI:
-        href: http://192.168.2.184:9999/desktop/?os=ugospro#/login/account
-        description: Graphical interface for NAS
     - Speedport:
         href: http://192.168.2.1/html/login/index.html
         description: Our Speedport Smart 4 router

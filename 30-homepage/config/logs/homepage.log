@@ -207,3 +207,111 @@
 ]
 [2026-06-22T11:50:20.628Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.2.184:8000/api/statistics/?format=json
 [2026-06-22T12:00:28.037Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.2.184:8000/api/statistics/?format=json
+[2026-07-13T12:37:52.663Z] error: Host validation failed for: 192.168.2.191:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-07-13T12:37:52.922Z] error: Host validation failed for: 192.168.2.191:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-07-13T12:37:52.927Z] error: Host validation failed for: 192.168.2.191:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-07-13T12:37:52.933Z] error: Host validation failed for: 192.168.2.191:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-07-13T12:37:52.941Z] error: Host validation failed for: 192.168.2.191:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-07-13T12:37:52.946Z] error: Host validation failed for: 192.168.2.191:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-07-13T12:37:52.959Z] error: Host validation failed for: 192.168.2.191:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-07-13T12:37:52.964Z] error: Host validation failed for: 192.168.2.191:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-07-13T12:37:52.966Z] error: Host validation failed for: 192.168.2.191:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-07-13T12:37:52.973Z] error: Host validation failed for: 192.168.2.191:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-07-13T12:37:52.979Z] error: Host validation failed for: 192.168.2.191:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-07-13T12:37:52.996Z] error: Host validation failed for: 192.168.2.191:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-07-13T12:40:38.613Z] error: Host validation failed for: 192.168.2.191:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-07-13T12:40:38.616Z] error: Host validation failed for: 192.168.2.191:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-07-13T13:12:42.650Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.2.191:8000/api/statistics/?format=json
+[2026-07-13T13:13:33.036Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.2.191:8000/api/statistics/?format=json
+[2026-07-13T13:13:52.488Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.2.191:8000/api/statistics/?format=json
+[2026-07-13T13:14:32.298Z] error: <httpProxy> Error calling http://192.168.2.191:8000/api/statistics/...
+[2026-07-13T13:14:32.349Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.2.191:8000
+      at <unknown> (Error: connect ECONNREFUSED 192.168.2.191:8000) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.2.191',
+    port: 8000
+  }
+]
+[2026-07-13T13:14:32.349Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.2.191:8000/api/statistics/?format=json
+[2026-07-13T13:14:34.331Z] error: <httpProxy> Error calling http://192.168.2.191:8000/api/statistics/...
+[2026-07-13T13:14:34.333Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.2.191:8000
+      at <unknown> (Error: connect ECONNREFUSED 192.168.2.191:8000) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.2.191',
+    port: 8000
+  }
+]
+[2026-07-13T13:14:34.333Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.2.191:8000/api/statistics/?format=json
+[2026-07-13T13:15:04.796Z] error: <httpProxy> Error calling http://192.168.2.191:8000/api/statistics/...
+[2026-07-13T13:15:04.797Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.2.191:8000
+      at <unknown> (Error: connect ECONNREFUSED 192.168.2.191:8000) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.2.191',
+    port: 8000
+  }
+]
+[2026-07-13T13:15:04.798Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.2.191:8000/api/statistics/?format=json
+[2026-07-13T13:15:51.202Z] error: <httpProxy> Error calling http://192.168.2.191:8000/api/statistics/...
+[2026-07-13T13:15:51.202Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.2.191:8000
+      at <unknown> (Error: connect ECONNREFUSED 192.168.2.191:8000) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.2.191',
+    port: 8000
+  }
+]
+[2026-07-13T13:15:51.203Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.2.191:8000/api/statistics/?format=json
+[2026-07-13T13:16:46.367Z] error: <httpProxy> Error calling http://192.168.2.191:8000/api/statistics/...
+[2026-07-13T13:16:46.369Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.2.191:8000
+      at <unknown> (Error: connect ECONNREFUSED 192.168.2.191:8000) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.2.191',
+    port: 8000
+  }
+]
+[2026-07-13T13:16:46.369Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.2.191:8000/api/statistics/?format=json
+[2026-07-13T13:17:01.691Z] error: <httpProxy> Error calling http://192.168.2.191:8000/api/statistics/...
+[2026-07-13T13:17:01.692Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.2.191:8000
+      at <unknown> (Error: connect ECONNREFUSED 192.168.2.191:8000) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.2.191',
+    port: 8000
+  }
+]
+[2026-07-13T13:17:01.692Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.2.191:8000/api/statistics/?format=json
+[2026-07-13T13:17:09.172Z] error: <httpProxy> Error calling http://192.168.2.191:8000/api/statistics/...
+[2026-07-13T13:17:09.173Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.2.191:8000
+      at <unknown> (Error: connect ECONNREFUSED 192.168.2.191:8000) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.2.191',
+    port: 8000
+  }
+]
+[2026-07-13T13:17:09.173Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.2.191:8000/api/statistics/?format=json
