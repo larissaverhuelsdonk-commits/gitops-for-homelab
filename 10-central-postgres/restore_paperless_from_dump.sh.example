@@ -1,3 +1,0 @@
-#!/bin/sh
-
-cat paperless-db.sql  | docker compose exec -T db psql -U postgres -d paperless
