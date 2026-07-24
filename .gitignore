@@ -1,5 +1,7 @@
 wip/
 
+# don't upload secrets
+**/*secret*
 
 # ignore logs
 30-homepage/config/logs
