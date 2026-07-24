@@ -1,8 +1,10 @@
 wip/
 
+# don't upload secrets
+**/*secret*
 
 # ignore logs
-30-homepage/config/logs
+**/*.log
 
 # ignore data volumes
 10-central-postgres/data
@@ -14,3 +16,6 @@ wip/
 **/*.env
 **/*.crt
 **/*.key
+
+# ignore local config
+config/gitops_base_path.txt:

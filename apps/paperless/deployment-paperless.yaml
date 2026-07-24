@@ -1,0 +1,50 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: paperless
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: paperless
+  template:
+    metadata:
+      labels:
+        app: paperless
+    spec:
+      containers:
+        - name: paperless
+          image: ghcr.io/paperless-ngx/paperless-ngx:2.20
+          ports:
+            - containerPort: 8000
+
+          env:
+            - name: PAPERLESS_REDIS
+              value: redis://broker:6379
+            - name: PAPERLESS_DBHOST
+              value: postgres
+
+          envFrom:
+            - secretRef:
+                name: postgres-secret
+
+          volumeMounts:
+            - name: storage
+              mountPath: /usr/src/paperless/data
+              subPath: data
+            - name: storage
+              mountPath: /usr/src/paperless/media
+              subPath: media
+            - name: storage
+              mountPath: /usr/src/paperless/export
+              subPath: export
+            - name: storage
+              mountPath: /usr/src/paperless/consume
+              subPath: consume
+
+
+
+      volumes:    
+        - name: storage
+          persistentVolumeClaim:
+            claimName: paperless-storage
